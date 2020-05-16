@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cricky Score</string>
+    <string name="team_1">TEAM 1</string>
+    <string name="_2_points">2 POINTS</string>
+    <string name="_4_points">4 POINTS</string>
+    <string name="_6_points">6 POINTS</string>
+    <string name="_0">0</string>
+    <string name="reset">RESET</string>
+    <string name="team_2">TEAM 2</string>
+</resources>

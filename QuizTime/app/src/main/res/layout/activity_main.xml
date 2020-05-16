@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/covid_quiz"
+        android:textColor="#FAF6F6"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/head">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <carbon.widget.LinearLayout
+        android:id="@+id/cr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffff"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/tq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name the vaccine that is jointly developed by the German company BioNTech and US pharma giant Pfizer for COVID-19?"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-light"/>
+        <RadioGroup
+            android:id="@+id/rd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+        <RadioButton
+            android:id="@+id/rb11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BNT162"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/rb21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PICOVACC"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/rb31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text=" Both A and B" />
+
+        <RadioButton
+            android:id="@+id/rb41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Neither A nor B" />
+
+        </RadioGroup>
+
+    </carbon.widget.LinearLayout>
+
+
+
+
+
+
+        <carbon.widget.LinearLayout
+            android:layout_below="@id/cr1"
+            android:id="@+id/cr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+            <TextView
+                android:id="@+id/tq2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q2.Name a clinical trial in which blood is transfused from recovered COVID-19 patients to a coronavirus patient who is in critical condition?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-light"/>
+            <RadioGroup
+                android:id="@+id/rd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mers"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sars"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/both_a_and_b"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neither_a_nor_b"
+                android:checked="false"/>
+            </RadioGroup>
+
+
+        </carbon.widget.LinearLayout>
+
+
+        <carbon.widget.LinearLayout
+            android:layout_below="@id/cr2"
+            android:id="@+id/cr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+            <TextView
+                android:id="@+id/tq3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q3.How does Coronavirus transmit?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-light"/>
+            <RadioGroup
+                android:id="@+id/rd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Plasma Therapy"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solidarity"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remdesivir"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hydroxychloroquine"
+                android:checked="false"/>
+
+            </RadioGroup>
+
+
+        </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_below="@id/cr3"
+            android:id="@+id/cr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+            <TextView
+                android:id="@+id/tq4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_the_first_case_of_novel_coronavirus_was_identified_in"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-light"/>
+            <RadioGroup
+                android:id="@+id/rd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beijing"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shanghai"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wuhan_hubei"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tianjin"
+                android:checked="false"/>
+
+            </RadioGroup>
+
+
+        </carbon.widget.LinearLayout>
+        <carbon.widget.LinearLayout
+            android:layout_below="@id/cr4"
+            android:id="@+id/cr5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+            <TextView
+                android:id="@+id/tq5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_workers_with_increased_exposure_risk_include_those_employed_in_which_industry"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-condensed-light"/>
+            <RadioGroup
+                android:id="@+id/rd5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rb15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/health_care"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/waste_management"
+                android:checked="false"/>
+
+            <RadioButton
+                android:id="@+id/rb35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/airline_service" />
+
+            <RadioButton
+                android:id="@+id/rb45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/all_of_the_above" />
+
+            </RadioGroup>
+
+
+        </carbon.widget.LinearLayout>
+
+    <carbon.widget.LinearLayout
+        android:layout_below="@id/cr5"
+        android:id="@+id/cr6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffff"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/tq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q6_what_is_more_effective_at_removing_the_coronavirus_from_your_hands"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-light"/>
+        <RadioGroup
+            android:id="@+id/rd6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/rb16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/botanicals_hand_sanitizer" />
+
+        <CheckBox
+            android:id="@+id/rb26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/soap_and_water" />
+
+        <CheckBox
+            android:id="@+id/rb36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/hand_sanitizer_spray" />
+
+        <CheckBox
+            android:id="@+id/rb46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/instant_hand_cleanser" />
+
+        </RadioGroup>
+
+
+    </carbon.widget.LinearLayout>
+
+
+
+
+
+
+    <carbon.widget.LinearLayout
+        android:layout_below="@id/cr6"
+        android:id="@+id/cr7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffff"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/tq8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q7_will_covid_19_affect_economy"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+        <EditText
+            android:id="@+id/pt1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/yes_no"
+            android:inputType="text"
+            android:autofillHints="" />
+
+
+
+
+
+    </carbon.widget.LinearLayout>
+
+        <carbon.widget.LinearLayout
+            android:layout_below="@id/cr7"
+            android:id="@+id/cr9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#ffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:carbon_cornerRadius="20dp" tools:targetApi="lollipop">
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            android:text="@string/submit"
+            android:textStyle="bold" />
+
+        </carbon.widget.LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>

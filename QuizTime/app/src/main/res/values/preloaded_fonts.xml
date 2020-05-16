@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/carme</item>
+        <item>@font/im_fell_english_sc</item>
+        <item>@font/mate_sc</item>
+    </array>
+</resources>

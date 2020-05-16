@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Quiz Time</string>
+    <string name="covid_quiz">COVID QUIZ</string>
+    <string name="brain">Brain</string>
+    <string name="heart">Heart</string>
+    <string name="liver">Liver</string>
+    <string name="q2_which_of_the_following_diseases_are_related_to_coronavirus">Q2.Which of the following diseases are related to coronavirus?</string>
+    <string name="wuhan_hubei">Wuhan, Hubei</string>
+    <string name="alcohol_based_hand_sanitiser">Alcohol-based hand sanitiser</string>
+    <string name="q6_what_is_more_effective_at_removing_the_coronavirus_from_your_hands">Q6.What is more effective at removing the coronavirus from your hands</string>
+    <string name="lungs">Lungs</string>
+    <string name="q1_which_organ_in_the_body_does_this_coronavirus_primarily_attack">Q1.Which organ in the body does this coronavirus primarily attack?</string>
+    <string name="neither_a_and_b">Neither A and B</string>
+    <string name="soap_and_water">Soap and water</string>
+    <string name="airline_service">Airline Service</string>
+    <string name="all_of_the_above">All of the above</string>
+    <string name="waste_management">Waste Management</string>
+    <string name="health_care">Health Care</string>
+    <string name="q5_workers_with_increased_exposure_risk_include_those_employed_in_which_industry">Q5.Workers with increased exposure-risk include those employed in which industry:</string>
+    <string name="tianjin">Tianjin</string>
+    <string name="shanghai">Shanghai</string>
+    <string name="beijing">Beijing</string>
+    <string name="q4_the_first_case_of_novel_coronavirus_was_identified_in">Q4.The first case of novel coronavirus was identified in?</string>
+    <string name="all_the_above">All the above</string>
+    <string name="shortness_of_breath">Shortness of breath</string>
+    <string name="mers">MERS</string>
+    <string name="sars">SARS</string>
+    <string name="cough">Cough</string>
+    <string name="fever">Fever</string>
+    <string name="neither_a_nor_b">Neither A nor B</string>
+    <string name="q3_mild_symptoms_of_novel_coronavirus_are">Q3.Mild Symptoms of Novel coronavirus are:?</string>
+    <string name="both_a_and_b">Both A and B</string>
+    <string name="q7_is_covid19_a_virus">Q7.Is COVID19 a virus?</string>
+
+    <string name="wrong">Wrong</string>
+    <string name="correct">Correct</string>
+    <string name="q8_will_covid_affect_economy_yes_no">Q8.Will Covid affect Economy(YES/NO)</string>
+    <string name="yes_no">YES/NO</string>
+    <string name="submit">Submit</string>
+    <string name="botanicals_hand_sanitizer">Botanicals Hand Sanitizer</string>
+    <string name="instant_hand_cleanser">Instant Hand Cleanser</string>
+    <string name="hand_sanitizer_spray">Hand Sanitizer Spray</string>
+    <string name="q7_will_covid_19_affect_economy">Q7.Will COVID-19 affect economy?</string>
+</resources>
