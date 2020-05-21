@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
 
-                if (ck1.isChecked()&&ck2.isChecked()&&ck3.isChecked()){
+                if (!ck4.isChecked()&&ck1.isChecked()&&ck2.isChecked()&&ck3.isChecked()){
                     //if checked score is added
                     score++;
                 }
