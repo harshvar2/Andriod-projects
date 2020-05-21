@@ -1,2 +1,1 @@
-# Andriod-Udacity
-Udacity projects
+# Andriod-projects
